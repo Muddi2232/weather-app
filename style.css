@@ -12,8 +12,8 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background-color:#00feba;
-    color: #fff;
+    background-color:whitesmoke;
+    color: black;
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
@@ -42,7 +42,7 @@ body{
 .search button{
     border: 0;
     outline: 0;
-    background: #ebfffc;
+    background: white;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -89,4 +89,16 @@ body{
 }
 .col p{
     color: black;
+}
+
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+
 }
