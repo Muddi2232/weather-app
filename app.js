@@ -30,7 +30,7 @@ async function checkWeather(city){
         weatherIcon.src = "images/clear.jpg";
     }
     else if(data.weather[0].main == "Rain"){
-        weatherIcon.src = "images/rain.jpeg";
+        weatherIcon.src = "images/rain.jpg";
     }
     document.querySelector(".weather").style.display ="block";
      }
